@@ -214,6 +214,7 @@ button:hover {
 }
 
 footer {
+    background-color: var(--cor-04);
     display: flex;
     flex-direction: column;
     justify-content: center;
