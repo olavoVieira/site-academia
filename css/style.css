@@ -119,8 +119,6 @@ main p {
 section {
     height: 100vh;
     padding-top: 6rem;
-
-    border: solid 1px yellow;
 }
 
 #modalidade, #planos {
@@ -130,10 +128,6 @@ section {
     gap: 3rem;
     margin-top: 8rem;
     padding: inherit 3rem;
-
-
-    /* teste */
-    border: solid 1px red;
 }
 
 .card-modalidade, .card-planos {
