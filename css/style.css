@@ -212,3 +212,22 @@ button:hover {
     height: 100%;
     border-radius: 0.5rem;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0; 
+}
+
+.rodape {
+    display: flex;
+    gap: 1rem;
+}
+
+i {
+    font-size: 2rem;
+    color: var(--cor-destaque);
+}
