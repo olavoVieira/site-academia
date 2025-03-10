@@ -87,26 +87,43 @@
                     <h1>R$ 89,90</h1>
                     <p>Praesentium nemo repudiandae eaque obcaecati veritatis ullam aliquam hic natus autem saepe.</p>
 
-                    <button>Assinar</button>
+                    <button class="btn-plano">Assinar</button>
                 </article>
                 <article class="card-planos">
                     <h2 class="plus-title">Plus</h2>
                     <h1>R$ 149,90</h1>
                     <p>Quibusdam blanditiis fugiat deserunt doloremque facere optio sapiente numquam magnam minus tenetur!</p>
 
-                    <button>Assinar</button>
+                    <button class="btn-plano">Assinar</button>
                 </article>
                 <article class="card-planos">
                     <h2 class="premium-title">Premium</h2>
                     <h1>179,90</h1>
                     <p>Quae delectus eum odit nam a itaque placeat consectetur saepe fuga quasi.</p>
 
-                    <button>Assinar</button>
+                    <button class="btn-plano">Assinar</button>
                 </article>
             </section>
 
             <!-- Contatos -->
-            <section id="contatos">Contatos</section>
+            <section id="contatos" class="contatos">
+                <h2 class="titulo-contato">Entre em <span>Contato</span></h2>
+
+                <form>
+                    <div class="input-box">
+                        <input type="text" class="form-name" placeholder="Nome" required>
+                        <input type="email" class="form-email" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" class="form-tel" placeholder="Telefone" required>
+                        <input type="text" class="form-assunto" placeholder="Assunto" required>
+                    </div>
+
+                    <textarea name="msn" id="msn" rows="3" cols="30" placeholder="Mensagem" required></textarea>
+
+                    <a href="#" class="btn">Enviar Mensagem</a>       
+                </form>
+            </section>
 
             <!-- Sobre -->
             <section id="sobre">
@@ -128,18 +145,47 @@
             </section>
         </main>
         <footer>
-            <div class="rodape">
-                <a href="#">
-                    <i class='bx bxl-instagram'></i>
-                </a>
-                <a href="#">
-                    <i class='bx bxl-facebook-circle'></i>
-                </a>
-                <a href="#">
-                    <i class='bx bxl-whatsapp'></i>
-                </a>
-            </div>
-            <p>&copy; Two Training 2025</p>
+            <aside>
+                <h3>Two Training</h3>
+                <p>Academia Two Training S.A</p>
+                <p>Av endereço, 123 Bairro, País</p>
+
+                <p>Academia Two Training, &copy; Todos os direitos reservados 2025</p>
+            </aside>
+            <aside>
+                <h3>Nossos Paceiros</h3>
+                <ul>
+                    <li>Parceria</li>
+                    <li>Parceria</li>
+                    <li>Parceria</li>
+                    <li>Parceria</li>
+                    <li>Parceria</li>
+                </ul>
+            </aside>
+            <aside class="box-aside">
+                <div>
+                    <h3>ASSINE A NOSSA NEWSLETTER</h3>
+                    
+                    <input type="email" placeholder="informe seu E-mail">
+                    <button>Enviar</button>
+                </div>
+
+                <hr>
+
+                <div class="rodape">
+                    <h3>SIGA NOSSAS REDES SOCIAIS</h3>
+
+                    <a href="#">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                </div>
+            </aside>
         </footer>
     </body>
 </html>
