@@ -325,7 +325,7 @@ footer aside div input {
     height: 2rem;   
 }
 
-button {
+footer button {
     padding: 0.5rem;
     font-size: 1rem;
     /* letter-spacing: 0.1rem; */
@@ -335,6 +335,10 @@ button {
     background-color: var(--cor-02);
     color: var(--cor-04);
     cursor: pointer;
+}
+
+footer button:hover {
+    background-color: var(--cor-09);
 }
 
 i {
