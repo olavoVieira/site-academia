@@ -270,16 +270,6 @@ form .btn:hover {
     border-radius: 0.5rem;
 }
 
-/* footer {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1.5rem 0; 
-} */
-
 footer {
     background-color: var(--cor-04);
     font-size: 13px;
@@ -328,8 +318,6 @@ footer aside div input {
 footer button {
     padding: 0.5rem;
     font-size: 1rem;
-    /* letter-spacing: 0.1rem; */
-    /* text-transform: uppercase; */
     border-radius: 1.5rem;
     transition: 0.3s;
     background-color: var(--cor-02);

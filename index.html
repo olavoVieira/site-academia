@@ -15,7 +15,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#modalidade">Modalidade</a></li>
                 <li><a href="#planos">Planos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#contatos">Contato</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#localizacao">Localização</a></li>
             </ul>
@@ -105,23 +105,27 @@
                 </article>
             </section>
 
-            <!-- Contatos -->
+            <!-- Contato -->
             <section id="contatos" class="contatos">
                 <h2 class="titulo-contato">Entre em <span>Contato</span></h2>
 
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="5c32bfd0-d3c9-4c0c-a1a0-18be968e6ea2">
+
                     <div class="input-box">
-                        <input type="text" class="form-name" placeholder="Nome" required>
-                        <input type="email" class="form-email" placeholder="Email" required>
+                        <input type="text" class="form-name" name="nome" placeholder="Nome" required>
+                        <input type="email" class="form-email" name="email" placeholder="Email" required>
                     </div>
                     <div class="input-box">
-                        <input type="number" class="form-tel" placeholder="Telefone" required>
-                        <input type="text" class="form-assunto" placeholder="Assunto" required>
+                        <input type="number" class="form-tel" name="tel" placeholder="Telefone" required>
+                        <input type="text" class="form-assunto" name="assunto" placeholder="Assunto" required>
                     </div>
 
-                    <textarea name="msn" id="msn" rows="3" cols="30" placeholder="Mensagem" required></textarea>
+                    <textarea name="mensagem" id="mensagem" rows="3" cols="30" placeholder="Mensagem" required></textarea>
 
-                    <a href="#" class="btn">Enviar Mensagem</a>       
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <button class="btn" type="submit">Enviar Mensagem</button>       
                 </form>
             </section>
 
@@ -166,7 +170,7 @@
                 <div>
                     <h3>ASSINE A NOSSA NEWSLETTER</h3>
                     
-                    <input type="email" placeholder="Informe seu E-mail ">
+                    <input type="email" placeholder="Informe seu E-mail">
                     <button>Enviar</button>
                 </div>
 
